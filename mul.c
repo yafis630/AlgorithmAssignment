@@ -22,7 +22,7 @@ int main() {
     	mul[i][j]=0;
     	for (k = 0; k < r; k++)
     	{
-    		mul[i][j]=	mul[i][j]+a[i][j]*b[i][j];	
+    		mul[i][j]=mul[i][j]+a[i][k]*b[k][j];	
 		}
     
     }
